@@ -1,0 +1,32 @@
+﻿<vm:MenuViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:hiworkout.ViewModels">
+
+    <vm:MenuViewModel.Welcome>
+        <vm:Menu Title="welcome">
+            <vm:Menu.Items>
+                <vm:MenuItem Title="Begin a workout" HelpText="Helptext" />
+                <vm:MenuItem Title="Create a new workout" HelpText="Helptext" />
+                <vm:MenuItem Title="Edit a stored workout" HelpText="Helptext" />
+            </vm:Menu.Items>
+        </vm:Menu>
+    </vm:MenuViewModel.Welcome>
+
+    <vm:MenuViewModel.Progress>
+        <vm:Menu Title="progress">
+            <vm:Menu.Items>
+                <vm:MenuItem Title="Select a stored workout" HelpText="Helptext" />
+            </vm:Menu.Items>
+        </vm:Menu>
+    </vm:MenuViewModel.Progress>
+
+    <vm:MenuViewModel.Recent>
+        <vm:Menu Title="recent">
+            <vm:Menu.Items>
+                <vm:MenuItem Title="Select a stored workout" HelpText="Helptext" />
+            </vm:Menu.Items>
+        </vm:Menu>
+    </vm:MenuViewModel.Recent>
+
+</vm:MenuViewModel>
